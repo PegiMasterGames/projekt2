@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .news-card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .news-title {
+    font-weight: bold;
+  }
+  
+  .news-description {
+    margin-top: 5px;
+  }
+  
+  .news-author {
+    margin-top: 10px;
+    font-style: italic;
+  }
